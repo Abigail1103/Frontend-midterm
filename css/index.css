@@ -216,19 +216,22 @@ header {
 .popup {
     position: absolute;
     width: 100px;
-    border: solid 1px #fff;
-    
-
-
+    /* border: solid 1px #fff; */
 }
-
-
 .popup.about {
     height: auto;
-    background-color: #F1DEC9;
+    background-color: rgba(241, 222, 201,0.9);
     top: 10.3%;
     left: 25%;
     display: none;
+}
+.popup.popupmenu {
+    height: auto;
+    background-color: rgba(241, 222, 201,0.9);
+    top: 10.3%;
+    left: 35.5%;
+    display: none;
+    
 }
 
 
