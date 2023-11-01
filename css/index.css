@@ -189,7 +189,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(to top, transparent 0%, white 75%);
+    background:linear-gradient(to bottom,white 0%,transparent 65%);
     background-blend-mode: lighten;
 }
 
@@ -257,6 +257,16 @@ h1 {
     color: #8d7660;
     margin-right: -6px;
 }
+h2 {
+    font-family: "Zen Maru Gothic",sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #8d7660;
+    letter-spacing: 4px;
+    line-height: 2.5rem;
+}
+
+
 h3 {
     font-family: SweiGothicLegCJKtc-Medium;
     font-size: 1rem;
@@ -264,11 +274,21 @@ h3 {
     margin: 0;
 
 }
+h3.footer {
+    color: #fff;
+    font-size: 1.3rem;
+}
 h6 {
     font-family: SweiGothicLegCJKtc-DemiLight;
     font-size: 1rem;
     /* color: #fff; */
     margin: 0;
+}
+h6.footer {
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.7rem;
+
 }
 
 
@@ -365,24 +385,81 @@ h6 {
     flex-direction: column;
     /* outline: solid 1px blueviolet; */
     padding: 5% 8%;
-    background:linear-gradient(to bottom, transparent 0%, white 50%);
+    background:linear-gradient(to bottom, transparent 0%, white 60%, transparent 100%);
     background-blend-mode: lighten;
 }
-.section1 {
+.section {
     width: 100%;
     height: 50%;
     display: flex;
-
-
+    
 }
+
 .rightarea {
     width: 60%;
     height: 100%;
-    outline: solid 1px blueviolet;
+    /* outline: solid 1px blueviolet; */
+    
 }
 .brownrect {
     position: absolute;
-    width: 60%;
-    height: 30%;
+    width: 45%;
+    height: 65%;
     background-color: #F1DEC9;
+    margin-top: 9%;
+}
+.brownrect.deep {
+    left: 0;
+    margin-top: 30%;
+    margin-left: 8%;
+    background-color: #C8B6A6;
+    width: 35%;
+    height: 40%;
+}
+
+.makingcakes {
+    position: absolute;
+    width: 45%;
+    height: auto;
+    margin-left: 6%;
+    margin-top: 7%;
+    
+}
+.leftarea {
+    /* outline: solid 1px blueviolet; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cake4 {
+    position: absolute;
+    right: 0;
+    width: 80%;
+    margin-top: 8%;
+}
+
+/* footer */
+footer {
+    width: 100vw;
+    height: 40vh;
+    background-color: #A4907C;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 5%;
+}
+.footer_section {
+    padding: 3% 0;
+    width: 33%;
+    /* outline: solid 1px white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+
+
 }
