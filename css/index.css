@@ -108,10 +108,39 @@ header {
 
 }
 
+/* popup */
+.popup {
+    position: absolute;
+    background-color: red;
+
+    width: auto;
+    height: 300px;
+
+}
+
+.popup.about {
+
+}
+
 
 /* btn */
 .btn {
+    width: 10px;
+    height: auto;
 
+}
+
+.btn_left {
+    background-image: url(../img/btn_left.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.btn_right {
+    background-image: url(../img/btn_right.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .btn_reservation {
@@ -184,4 +213,47 @@ header {
     right: 0;
     bottom: 0;
     background-color: #F1DEC9;
+}
+
+/* 字型 */
+
+h1 {
+    font-family: "Zen Maru Gothic",sans-serif;
+    font-weight: 700;
+    font-size: 1.2 rem;
+    letter-spacing: 6px;
+}
+
+
+/* 看菜單 */
+.CheckoutMenu {
+    outline: solid 1px red;
+    width: 100vw;
+    height: 100vh;
+    padding: 8% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel {
+    outline: solid 1px blueviolet;
+    /* background-color: blueviolet; */
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    padding: 5% 5%;
+
+}
+
+.menu {
+    outline: solid 1px blue;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu_item {
+
 }
