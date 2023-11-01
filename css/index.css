@@ -75,8 +75,8 @@ header {
 
 .logo {
     /* outline: solid 1px blue; */
-    width: 15%;
-    height: 100%;
+    width: auto;
+    height: auto;
 
 
 }
@@ -254,14 +254,16 @@ h1 {
     font-weight: 700;
     font-size: 2.5rem;
     letter-spacing: 6px;
-    color: #8d7660;
+    /* color: #8d7660; */
+    color: #000;
     margin-right: -6px;
 }
 h2 {
     font-family: "Zen Maru Gothic",sans-serif;
     font-weight: 500;
     font-size: 1.5rem;
-    color: #8d7660;
+    /* color: #8d7660; */
+    color: #000;
     letter-spacing: 4px;
     line-height: 2.5rem;
 }
@@ -287,7 +289,7 @@ h6 {
 h6.footer {
     color: #fff;
     font-size: 1rem;
-    line-height: 1.7rem;
+    line-height: 1.5rem;
 
 }
 
