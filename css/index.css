@@ -51,7 +51,7 @@ body {
 .con {
     width: 100vw;
     height: 100vh;
-    outline: solid 1x black;
+    /* outline: solid 1x black; */
 
 }
 
@@ -245,6 +245,19 @@ h1 {
     font-size: 1.2 rem;
     letter-spacing: 6px;
 }
+h3 {
+    font-family: SweiGothicLegCJKtc-Medium;
+    font-size: 1.2rem;
+    /* color: #fff; */
+    margin: 0;
+
+}
+h6 {
+    font-family: SweiGothicLegCJKtc-DemiLight;
+    font-size: 1rem;
+    /* color: #fff; */
+    margin: 0;
+}
 
 
 /* 看菜單 */
@@ -274,8 +287,39 @@ h1 {
     height: auto;
     display: flex;
     justify-content: space-around;
+    padding: 0 1%;
 }
 
 .menu_item {
+    width: auto;
+    height: 100%;
+    /* outline: solid 3px red; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu_item_img {
+    width: auto;
+    height: 80%;
+}
+.label {
+    width: auto;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 3% 5%;
+
+}
+
+.label.odd {
+    background-color: #A4907C;
+    color: #fff;
+
+}
+.label.even {
+    background-color: #F1DEC9;
+    color: #8d7660;
 
 }

@@ -59,3 +59,38 @@ $(document).ready(function() {
     }
     
 });
+
+// 看菜單
+
+let cake1 = document.querySelector("#cake1");
+let cake2 = document.querySelector("#cake2");
+let cake3 = document.querySelector("#cake3");
+let cake1img =document.querySelector("#cake1img");
+let cake1label =document.querySelector("#cake1label");
+let cake2img =document.querySelector("#cake2img");
+let cake2label =document.querySelector("#cake2label");
+let cake3img =document.querySelector("#cake3img");
+let cake3label =document.querySelector("#cake3label");
+
+$('document').ready(function(){
+    $('#cake1').mouseenter(function(){
+        $("#cake1img").css('opacity','0.6').css('transition','all 0.5s').css('height','70%');
+        $("#cake1label").css('height','30%').css('transition','all 0.5s');
+    }).mouseleave(function(){
+        $("#cake1img").css('opacity','1').css('transition','all 0.5s').css('height','80%');
+    })
+
+    $('#cake2').mouseenter(function(){
+        $("#cake2img").css('opacity','0.6').css('transition','all 0.5s').css('height','70%');
+        $("#cake2label").css('height','30%').css('transition','all 0.5s');
+    }).mouseleave(function(){
+        $("#cake2img").css('opacity','1').css('transition','all 0.5s').css('height','80%');
+    })
+
+    $('#cake3').mouseenter(function(){
+        $("#cake3img").css('opacity','0.6').css('transition','all 0.5s').css('height','70%');
+        $("#cake3label").css('height','30%').css('transition','all 0.5s');
+    }).mouseleave(function(){
+        $("#cake3img").css('opacity','1').css('transition','all 0.5s').css('height','80%');
+    })
+});
