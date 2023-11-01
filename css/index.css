@@ -45,6 +45,12 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-image: url(../img/淺棕色交叉線.png);
+    /* background-color: rgba(255, 255, 255,0.6); */
+    /* background-blend-mode: lighten; */
+    background-position: center center;
+    background-size: contain;
+    background-repeat: repeat;
 }
 
 
@@ -63,6 +69,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     background-color: #A4907C;
+    
     
 }
 
@@ -182,6 +189,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background:linear-gradient(to top, transparent 0%, white 75%);
+    background-blend-mode: lighten;
 }
 
 
@@ -237,17 +246,20 @@ header {
 
 
 
+
 /* 字型 */
 
 h1 {
     font-family: "Zen Maru Gothic",sans-serif;
     font-weight: 700;
-    font-size: 1.2 rem;
+    font-size: 2.5rem;
     letter-spacing: 6px;
+    color: #8d7660;
+    margin-right: -6px;
 }
 h3 {
     font-family: SweiGothicLegCJKtc-Medium;
-    font-size: 1.2rem;
+    font-size: 1rem;
     /* color: #fff; */
     margin: 0;
 
@@ -262,27 +274,48 @@ h6 {
 
 /* 看菜單 */
 .CheckoutMenu {
-    outline: solid 1px red;
+    /* outline: solid 1px red; */
     width: 100vw;
     height: 100vh;
-    padding: 8% 5%;
+    padding: 5% 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+}
+.title {
+    width: 100vw;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+/* icon */
+.icon {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/bakehat.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
 }
 
 .carousel {
-    outline: solid 1px blueviolet;
+    /* outline: solid 1px blueviolet; */
     /* background-color: blueviolet; */
     width: 100vw;
-    height: 100%;
+    height: 80%;
     display: flex;
     padding: 5% 5%;
 
 }
 
 .menu {
-    outline: solid 1px blue;
+    /* outline: solid 1px blue; */
     width: 100%;
     height: auto;
     display: flex;
@@ -322,4 +355,34 @@ h6 {
     background-color: #F1DEC9;
     color: #8d7660;
 
+}
+
+/* introduction */
+.introduction {
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    /* outline: solid 1px blueviolet; */
+    padding: 5% 8%;
+    background:linear-gradient(to bottom, transparent 0%, white 50%);
+    background-blend-mode: lighten;
+}
+.section1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+
+
+}
+.rightarea {
+    width: 60%;
+    height: 100%;
+    outline: solid 1px blueviolet;
+}
+.brownrect {
+    position: absolute;
+    width: 60%;
+    height: 30%;
+    background-color: #F1DEC9;
 }
