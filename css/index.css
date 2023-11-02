@@ -361,7 +361,8 @@ h1.menutitle {
     position: absolute;
     right: 0;
     margin-right: 7%;
-    color: #000;
+    color: #fff;
+    text-shadow: #8d7660 1px 0 10px;
 }
 h1.menupage_title {
     font-family: SweiGothicLegCJKtc-Bold;
