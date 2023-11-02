@@ -94,3 +94,5 @@ $('document').ready(function(){
         $("#cake3img").css('opacity','1').css('transition','all 0.5s').css('height','80%');
     })
 });
+
+
