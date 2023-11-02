@@ -157,7 +157,8 @@ header {
     transition:all 0.5s;
 }
 .btn_reservation {
-    position: absolute;
+    /* position: absolute; */
+    position: fixed;
     display: flex;
     right: 0;
     bottom: 0;
@@ -169,11 +170,11 @@ header {
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-bottom: -15px;
+    margin-bottom: 15px;
     
 }
 .btn_reservation:hover {
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     width: 14%;
     height: 6%;
     background-color: #b6a698;
