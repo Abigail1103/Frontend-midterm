@@ -247,6 +247,10 @@ header {
     background:linear-gradient(to bottom,white 0%,transparent 35%);
     background-blend-mode: lighten;
 }
+.top_title {
+    position: absolute;
+    display: flex;
+}
 .topics.menu {
     height: 40%;
     background-color: #fff;
@@ -331,6 +335,14 @@ h1 {
     /* color: #8d7660; */
     color: #000;
     margin-right: -6px;
+}
+h1.vertical {
+    color: #fff;
+    writing-mode: vertical-lr;
+    font-size: 5rem;
+    -webkit-text-stroke: 1.5px #8d7660;
+    text-shadow: #A4907C 1px 0 10px;
+    
 }
 h1.reservation_note {
     font-family: SweiGothicLegCJKtc-Bold;
