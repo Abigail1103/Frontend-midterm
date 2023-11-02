@@ -622,6 +622,9 @@ footer {
     justify-content: space-around;
     padding: 1% 5%;
 }
+footer.reservationpage {
+    margin-top: 0;
+}
 
 .footer_section {
     padding: 3% 0;
