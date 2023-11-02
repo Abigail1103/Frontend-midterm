@@ -255,6 +255,8 @@ header {
 .titleimg {
     width: 150px;
     /* box-shadow: #8d7660 1px 0 10px; */
+    
+    
 }
 .topics.menu {
     height: 40%;
@@ -264,7 +266,7 @@ header {
 .menu_topimage {
     width: auto;
     height: 100%;
-
+    
 }
 
 
