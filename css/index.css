@@ -357,6 +357,9 @@ h2 {
     letter-spacing: 4px;
     line-height: 2.5rem;
 }
+h2.colorbrown {
+    color: #A4907C;
+}
 h2.brownrectdeep {
     color: #fff;
 }
