@@ -197,7 +197,29 @@ header {
     margin-top: 50%;
     margin-left: 85%;
 }
-
+.btn_menupage_res {
+    position: absolute;
+    display: flex;
+    width: 10%;
+    height: 7%;
+    background-color:#A4907C;
+    border-radius: 60px 0 0 60px;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12.6%;
+    margin-top: 23%;
+    
+}
+.btn_menupage_res a {
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
 
 /* 主頁首圖 */
 .topics {
@@ -209,8 +231,18 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(to bottom,white 0%,transparent 65%);
+    background:linear-gradient(to bottom,white 0%,transparent 35%);
     background-blend-mode: lighten;
+}
+.topics.menu {
+    height: 40%;
+    background-color: #fff;
+
+}
+.menu_topimage {
+    width: auto;
+    height: 100%;
+
 }
 
 
@@ -255,14 +287,14 @@ header {
     height: auto;
     background-color: rgba(241, 222, 201,0.9);
     top: 10.3%;
-    left: 25%;
+    left: 27.5%;
     display: none;
 }
 .popup.popupmenu {
     height: auto;
     background-color: rgba(241, 222, 201,0.9);
     top: 10.3%;
-    left: 35.5%;
+    left: 38.5%;
     display: none;
     
 }
@@ -286,6 +318,16 @@ h1.reservation_note {
     font-family: SweiGothicLegCJKtc-Bold;
     align-self: center;
     
+}
+h1.menutitle {
+    position: absolute;
+    right: 0;
+    margin-right: 7%;
+    color: #000;
+}
+h1.menupage_title {
+    font-family: SweiGothicLegCJKtc-Bold;
+    font-size: 2.3rem;
 }
 h2 {
     font-family: "Zen Maru Gothic",sans-serif;
@@ -361,6 +403,15 @@ h6.footer {
     background-repeat: no-repeat;
     margin-bottom: 10px;
 }
+.icon.fest {
+    background-image: url(../img/節日限定.png);
+}
+.icon.cele {
+    background-image: url(../img/慶祝紀念.png);
+}
+.icon.cake {
+    background-image: url(../img/蛋糕.png);
+}
 
 .carousel {
     /* outline: solid 1px blueviolet; */
@@ -389,11 +440,31 @@ h6.footer {
     flex-direction: column;
 
 }
+.ranking {
+    position: absolute;
+    top: 0;
+    margin-left: -10px;
+    margin-top: 20px;
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/皇冠1.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.ranking.r2 {
+    background-image: url(../img/皇冠2.png);
+}
+.ranking.r3 {
+    background-image: url(../img/皇冠3.png);
+}
 
 .menu_item_img {
     width: auto;
     height: 80%;
 }
+
+
 .label {
     width: auto;
     height: 20%;
@@ -413,6 +484,16 @@ h6.footer {
     background-color: #F1DEC9;
     color: #8d7660;
 
+}
+.label.menu {
+    position: relative;
+    padding: 1% 2%;
+    /* width: 19.7%; */
+    /* width: auto; */
+    /* position: absolute; */
+    background-color: #C8B6A6;
+    color: #fff;
+    /* margin-top: 23%; */
 }
 
 /* introduction */
@@ -556,4 +637,10 @@ footer {
     font-size: 1.1rem;
     margin: 0;
     
+}
+
+/* 菜單資訊頁 */
+.menu_content {
+    width: 100vw;
+    height: 600vh;
 }
