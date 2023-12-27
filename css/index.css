@@ -116,6 +116,50 @@ header {
     }
     
 } 
+.phonenav {
+    display: none;
+    position: absolute;
+    background-color: #ffffffca;
+    
+}
+.phonenav_list {
+    display: none;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding: 5px;
+}
+
+.menu_click {
+    display: block;
+}
+.nav_list_item {
+    font-size: 1rem;
+    line-height: 2rem;
+    font-family: SweiGothicLegCJKtc-DemiLight;
+}
+
+@media (max-width:480px){
+    .phonenav {
+        display: block;
+        position: absolute;
+        font-size: 2rem;
+        color: #6F553E;
+        padding: 0 5px;
+        border-radius: 4px;
+        /* border:1px solid #8d7660; */
+        top: 15px;
+        right: 10px;
+        
+    }
+    
+    /* .phonenav:hover {
+        background-color: #d6baa1ad;
+        font-size: 1rem;
+        
+    } */
+}
 
 
 .pagelink {
@@ -338,11 +382,11 @@ header {
     height: 80%;
     
 }
-@media screen and (max-width: 480px){
+@media (max-width: 480px){
 
     .topics {
-        align-items: start;
-        justify-content: start;
+        align-items: center;
+        justify-content: center;
         height: 40%;
     }
     .BrownLines {
@@ -351,13 +395,16 @@ header {
         top: 20%;
     }
     .HomepageTop {
-        position: absolute;
+        position: relative;
+        /* position: absolute; */
         left: 0;
-        right: 10;
+        right: 0;
         /* scale: 50%; */
         width: 100%;
         height: auto;
-        padding: 0 10px;
+        padding: 0;
+        margin-left: 5%;
+        
         
     }
 }
@@ -918,14 +965,25 @@ footer.reservationpage {
 
 @media (max-width:480px){
 
+    .con {
+        margin-left: -10px;
+    }
     h1 {
         font-size: 1.5rem;
         letter-spacing: 2px;
     }
+    h2 {
+        font-family: SweiGothicLegCJKtc-Regular;
+    }
+    h3 {
+        font-family: SweiGothicLegCJKtc-Thin;
+
+    }
     .CheckoutMenu{
         width: 100vw;
         height: 150vh;
-        margin-bottom: 150px;
+        margin-bottom: 100px;
+        /* margin-left: -10px; */
     }
     .title {
         width: 100vw;
@@ -957,23 +1015,52 @@ footer.reservationpage {
     .pagelink.fullmenu{
         justify-content: center;
         margin-right: 0;
+        padding-top: 30px;
 
     }
+    .introduction{
+        display: block;
+        height: 150vh;
+    }
+    
     .section{
+        height: 50%;
+        display: flex;
         flex-direction: column;
         padding: 0;
         align-items: center;
-        margin-top: 50px;
+        /* margin-top: 50px; */
+        margin: 0;
+        padding: 0;
     }
     .rightarea{
         width: 100%;
-        height: 0px;
+        height: 90%;
+        
         
     }
+    .makingcakes{
+        scale:100%;
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+        /* margin-top: 50px; */
+        /* padding-top: 50px; */
+        margin: 0;
+        padding: 0;
+        
+
+    }
     .leftarea{
-        height: 50px;
+        
+        height: 90%;
         width: 60%;
         padding: 0;
+        margin-left: -10px;
+
+    }
+    h2.colorbrown{
+        font-family: SweiGothicLegCJKtc-Regular;
 
     }
     .brownrect{
@@ -982,16 +1069,68 @@ footer.reservationpage {
         margin-top: 0;
         display: none;
     }
-    .makingcakes{
-        scale:100%;
-        width: 100%;
-        margin-left: 0%;
-        margin-top: 50px;
-        padding-top: 50px;
+    .section.section4{
+        display: block;
+        /* flex-direction: column; */
         margin: 0;
+        height: 20%;
+        
+    }
+    .brownrect4{
+        position: absolute;
+        padding: 10px;
+        width: 100%;
+        height: 200px;
+        margin-top: 250px;
+        /* margin-bottom: -450px; */
+        /* margin: 0; */
+
+    }
+    h6.brownrect4{
         padding: 0;
+        font-size: 1rem;
+        font-family: SweiGothicLegCJKtc-Thin;
+        width: 90%;
 
+    }
+    b {
+        font-family: SweiGothicLegCJKtc-Regular;
 
+    }
+    .section.section5{
+        width: 106%;
+        height: 20%;
+        margin-top: -100px;
+        margin-bottom: 50px;
+    }
+    .section.QA {
+        width: 106%;
+        height: 50%;
+    }
+    footer {
+        width: 105%;
+        height: 100vh;
+        padding: 0% 0%;
+        display: block;
+        /* flex-direction: column; */
+        margin-top: 0;
+    }
+    .footer_section {
+        padding: 0% 5%;
+        margin: 0;
+        width: 400px;
+        height: 25%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        margin-top: -20px;
+        
+    }
+    h6.footer {
+        font-family: SweiGothicLegCJKtc-Thin;
+    }
+    h3.footer {
+        font-family: SweiGothicLegCJKtc-Regular;
     }
 
 }

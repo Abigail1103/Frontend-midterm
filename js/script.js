@@ -111,3 +111,13 @@ $('document').ready(function(){
     })
 
 });
+
+$('document').ready(function(){
+    let $ul = $(".phonenav_list"),
+    $menu = $(".phonenav_menu");
+
+    $($menu).click(function(){
+        $ul.toggleClass("menu_click");
+    });
+
+});
