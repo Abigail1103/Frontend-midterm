@@ -344,7 +344,22 @@ header {
     height: 80%;
     
 }
+@media screen and (max-width: 480px){
 
+    .topics {
+        align-items: start;
+        justify-content: start;
+    }
+    .BrownLines {
+        display: none;
+    }
+    .HomepageTop {
+        position: relative;
+        left: 0;
+        right: 10;
+        scale: 50%;
+        
+    }
 
 .HomepageRight {
     width: 32%;
@@ -941,22 +956,7 @@ footer.reservationpage {
 
 }
 
-@media screen and (max-width: 480px){
 
-    .topics {
-        align-items: start;
-        justify-content: start;
-    }
-    .BrownLines {
-        display: none;
-    }
-    .HomepageTop {
-        position: relative;
-        left: 0;
-        right: 10;
-        scale: 50%;
-        
-    }
 
 
 
