@@ -294,23 +294,7 @@ header {
 }
 
 @media (max-width:480px){
-    .topics {
-        align-items: start;
-        justify-content: start;
-    }
-    .BrownLines {
-        display: none;
-    }
-    .HomepageTop {
-        position: relative;
-        left: 0;
-        right: 10;
-        scale: 50%;
-        
-        
-        
-        
-    }
+    
     
 }
 
@@ -577,40 +561,7 @@ h6.footer {
     
 
 }
-@media (max-width:480px){
-    .CheckoutMenu{
-        width: 100vw;
-        height: 120vh;
-        margin-bottom: 150px;
-    }
-    .title {
-        width: 100vw;
-    }
-    .menu{
-        flex-direction: column;
- 
-    }
-    .ranking{
-        display: none;
-    }
-    .menu_item{
-        margin-top: 30px;
 
-    }
-    .btn_right{
-        display: none;
-
-    }
-    #cake4{
-        display: none;
-    }
-    .pagelink.fullmenu{
-        justify-content: center;
-        margin-right: 0;
-
-    }
-
-}
 
 
 .menu {
@@ -725,35 +676,7 @@ h6.footer {
     
 }
 
-@media (max-width:480px){
-    .section{
-        flex-direction: column;
-        padding: 0;
-        align-items: center;
-    }
-    .rightarea{
-        width: 100%;
-        height: 30%;
-    }
-    .brownrect{
-        width: 80%;
-        height: 10px;
-        margin-top: 0;
-        display: none;
-    }
-    .makingcakes{
-        scale:170%;
-        width: 100%;
-        margin-left: 0%;
-        margin-top: 50px;
-        padding-top: 50px;
-        margin: 0;
-        padding: 0;
 
-
-    }
-    
-}
 
 .section.section4 {
     background-image: url(../img/輕鬆自己做.png);
@@ -975,3 +898,101 @@ footer.reservationpage {
 .col-xs-3{width:25%;}
 .col-xs-2{width:16.662%;}
 .col-xs-1{width:8.332%;}
+
+
+@media (max-width:480px){
+    .CheckoutMenu{
+        width: 100vw;
+        height: 120vh;
+        margin-bottom: 150px;
+    }
+    .title {
+        width: 100vw;
+    }
+    .carousel{
+        padding: 0;
+    }
+    .menu{
+        flex-direction: column;
+ 
+    }
+    .ranking{
+        display: none;
+    }
+    .menu_item{
+        margin-top: 30px;
+
+    }
+    .btn_right{
+        display: none;
+
+    }
+    .btn_left{
+        display: none;
+    }
+    #cake4{
+        display: none;
+    }
+    .pagelink.fullmenu{
+        justify-content: center;
+        margin-right: 0;
+
+    }
+
+}
+
+@media screen and (max-width: 480px){
+
+    .topics {
+        align-items: start;
+        justify-content: start;
+    }
+    .BrownLines {
+        display: none;
+    }
+    .HomepageTop {
+        position: relative;
+        left: 0;
+        right: 10;
+        scale: 50%;
+        
+    }
+
+
+
+    .section{
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .rightarea{
+        width: 100%;
+        height: 0px;
+        
+    }
+    .leftarea{
+        height: 50px;
+        width: 60%;
+        padding: 0;
+
+    }
+    .brownrect{
+        width: 80%;
+        height: 10px;
+        margin-top: 0;
+        display: none;
+    }
+    .makingcakes{
+        scale:100%;
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 50px;
+        padding-top: 50px;
+        margin: 0;
+        padding: 0;
+
+
+    }
+    
+}
