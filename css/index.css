@@ -293,12 +293,6 @@ header {
     background-blend-mode: lighten;
 }
 
-@media (max-width:480px){
-    
-    
-}
-
-
 .top_title {
     position: absolute;
     display: flex;
@@ -349,17 +343,24 @@ header {
     .topics {
         align-items: start;
         justify-content: start;
+        height: 40%;
     }
     .BrownLines {
-        display: none;
+        background-size: contain;
+        height: 25%;
+        top: 20%;
     }
     .HomepageTop {
-        position: relative;
+        position: absolute;
         left: 0;
         right: 10;
-        scale: 50%;
+        /* scale: 50%; */
+        width: 100%;
+        height: auto;
+        padding: 0 10px;
         
     }
+}
 
 .HomepageRight {
     width: 32%;
@@ -916,9 +917,14 @@ footer.reservationpage {
 
 
 @media (max-width:480px){
+
+    h1 {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+    }
     .CheckoutMenu{
         width: 100vw;
-        height: 120vh;
+        height: 150vh;
         margin-bottom: 150px;
     }
     .title {
@@ -953,13 +959,6 @@ footer.reservationpage {
         margin-right: 0;
 
     }
-
-}
-
-
-
-
-
     .section{
         flex-direction: column;
         padding: 0;
@@ -994,5 +993,12 @@ footer.reservationpage {
 
 
     }
-    
+
 }
+
+
+
+
+
+    
+    
