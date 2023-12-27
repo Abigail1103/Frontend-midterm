@@ -72,27 +72,42 @@ let cake2label =document.querySelector("#cake2label");
 let cake3img =document.querySelector("#cake3img");
 let cake3label =document.querySelector("#cake3label");
 
+// $('document').ready(function(){
+//     $('#cake1').mouseenter(function(){
+//         $("#cake1img").css('opacity','0.6').css('transition','all 0.5s').css('height','70%');
+//         $("#cake1label").css('height','30%').css('transition','all 0.5s');
+//     }).mouseleave(function(){
+//         $("#cake1img").css('opacity','1').css('transition','all 0.5s').css('height','80%');
+//     })
+
+//     $('#cake2').mouseenter(function(){
+//         $("#cake2img").css('opacity','0.6').css('transition','all 0.5s').css('height','70%');
+//         $("#cake2label").css('height','30%').css('transition','all 0.5s');
+//     }).mouseleave(function(){
+//         $("#cake2img").css('opacity','1').css('transition','all 0.5s').css('height','80%');
+//     })
+
+//     $('#cake3').mouseenter(function(){
+//         $("#cake3img").css('opacity','0.6').css('transition','all 0.5s').css('height','70%');
+//         $("#cake3label").css('height','30%').css('transition','all 0.5s');
+//     }).mouseleave(function(){
+//         $("#cake3img").css('opacity','1').css('transition','all 0.5s').css('height','80%');
+//     })
+// });
+
+
+let btn_right = document.querySelector("#btn_right");
+let btn_left = document.querySelector("#btn_left");
+
 $('document').ready(function(){
-    $('#cake1').mouseenter(function(){
-        $("#cake1img").css('opacity','0.6').css('transition','all 0.5s').css('height','70%');
-        $("#cake1label").css('height','30%').css('transition','all 0.5s');
-    }).mouseleave(function(){
-        $("#cake1img").css('opacity','1').css('transition','all 0.5s').css('height','80%');
+    $("#btn_right").on("click",function(){
+        $("#btn_left").css('opacity','1').css('transition','all 0.5s');
+        $("#menuitem").css('justify-content','end').css('transition','all 0.5s');
+        
+    })
+    $("#btn_left").on("click",function(){
+        $("#btn_left").css('opacity','0').css('transition','all 0.5s');
+        $("#menuitem").css('justify-content','start').css('transition','all 0.5s');
     })
 
-    $('#cake2').mouseenter(function(){
-        $("#cake2img").css('opacity','0.6').css('transition','all 0.5s').css('height','70%');
-        $("#cake2label").css('height','30%').css('transition','all 0.5s');
-    }).mouseleave(function(){
-        $("#cake2img").css('opacity','1').css('transition','all 0.5s').css('height','80%');
-    })
-
-    $('#cake3').mouseenter(function(){
-        $("#cake3img").css('opacity','0.6').css('transition','all 0.5s').css('height','70%');
-        $("#cake3label").css('height','30%').css('transition','all 0.5s');
-    }).mouseleave(function(){
-        $("#cake3img").css('opacity','1').css('transition','all 0.5s').css('height','80%');
-    })
 });
-
-
