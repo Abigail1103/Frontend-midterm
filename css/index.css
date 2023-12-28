@@ -1299,7 +1299,7 @@ footer.reservationpage {
     }
     .carousel.menupage {
         flex-direction: column;
-        height: 300vh;
+        height: 1000px;
     }
     .carousel.cakepage {
         height: 120vh;
