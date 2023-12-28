@@ -379,6 +379,13 @@ header {
         margin-left: 0;
     }
 }
+@media (max-width:480px){
+    .topics.menu {
+        width: 106%;
+        justify-content: center;
+    }
+    
+}
 
 .menu_topimage {
     width: auto;
@@ -691,6 +698,9 @@ h6.footer {
     padding: 5% 5%;
     
 
+}
+.carousel.menupage {
+    height: 130vh;
 }
 
 
@@ -1154,15 +1164,44 @@ footer.reservationpage {
         margin-bottom: 100px;
         /* margin-left: -10px; */
     }
+    .CheckoutMenu.menupage {
+        height: 100%;
+    }
+    .CheckoutMenu.cakepage {
+        height: 100%;
+        margin-right: 0;
+        padding: 0;
+        margin-left: 0;
+    }
     .title {
         width: 100vw;
+    }
+    .title.menupage {
+        height: 10vh;
     }
     .carousel{
         padding: 0;
     }
+    .carousel.menupage {
+        flex-direction: column;
+        height: 120vh;
+    }
+    .carousel.cakepage {
+        height: 120vh;
+    }
     .menu{
         flex-direction: column;
  
+    }
+    .menu_content.menupage {
+        height: 270vh;
+    }
+    .menu_content.cakepage {
+        height: 520vh;
+    }
+    .menu.menupage{
+        height: 120vh;
+        flex-direction: column;
     }
     .ranking{
         display: none;
