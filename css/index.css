@@ -1299,7 +1299,7 @@ footer.reservationpage {
     }
     .carousel.menupage {
         flex-direction: column;
-        height: 270vh;
+        height: 300vh;
     }
     .carousel.cakepage {
         height: 120vh;
@@ -1309,7 +1309,7 @@ footer.reservationpage {
  
     }
     .menu_content.menupage {
-        height: 270vh;
+        height: 300vh;
     }
     .menu_content.cakepage {
         height: 520vh;
