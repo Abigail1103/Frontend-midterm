@@ -472,11 +472,18 @@ header {
     height: 80%;
     
 }
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-inner {
+    height: 100%;
+    width: 68%;
+}
+
 .carousel-inner img {
-    margin-top: -110px;
-    height: auto;
-    width: 100%;
-    scale: 68%;
+    
 }
 
 @media (max-width:768px) {
@@ -1507,7 +1514,18 @@ footer.reservationpage {
 }
 
 
-
+/* building */
+.building {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/棕色交叉線.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: repeat-x;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
     
