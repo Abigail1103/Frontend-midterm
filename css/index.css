@@ -1257,7 +1257,7 @@ footer.reservationpage {
 }
 
 
-@media screen and (max-width:480px){
+@media (max-width:480px){
 
     .con {
         margin-left: -10px;
@@ -1283,7 +1283,7 @@ footer.reservationpage {
         height: 100%;
     }
     .CheckoutMenu.cakepage {
-        height: 650vh;
+        height: 100%;
         margin-right: 0;
         padding: 0;
         margin-left: 0;
@@ -1299,23 +1299,23 @@ footer.reservationpage {
     }
     .carousel.menupage {
         flex-direction: column;
-        height: 180vh;
+        height: 120vh;
     }
     .carousel.cakepage {
-        height: 1000px;
+        height: 120vh;
     }
     .menu{
         flex-direction: column;
  
     }
     .menu_content.menupage {
-        height: 300vh;
+        height: 270vh;
     }
     .menu_content.cakepage {
-        height: 600vh;
+        height: 520vh;
     }
     .menu.menupage{
-        height: 180vh;
+        height: 120vh;
         flex-direction: column;
     }
     .ranking{
