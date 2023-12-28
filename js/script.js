@@ -103,13 +103,16 @@ $('document').ready(function(){
     $("#btn_right").on("click",function(){
         $("#btn_left").css('opacity','1').css('transition','all 0.5s');
         $("#menuitem").css('justify-content','end').css('transition','all 0.5s');
+        $("#btn_right").css('opacity','0').css('transition','all 0.5s');
         
     })
     $("#btn_left").on("click",function(){
         $("#btn_left").css('opacity','0').css('transition','all 0.5s');
         $("#menuitem").css('justify-content','start').css('transition','all 0.5s');
+        $("#btn_right").css('opacity','1').css('transition','all 0.5s');
+        
     })
-
+    
 });
 
 $('document').ready(function(){
