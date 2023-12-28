@@ -70,6 +70,11 @@ body {
     height: 100vh;
     padding-bottom: 0;
 }
+@media (max-width:768px){
+    .con.respage {
+        height: 95vh;
+    }
+}
 
 
 header {
@@ -323,6 +328,21 @@ header {
     font-family: SweiGothicLegCJKtc-Regular;
     
 }
+
+@media (max-width:768px){
+    .btn_respage.agree {
+        margin-top: 115%;
+        margin-left: 75%;
+    }
+}
+
+@media (max-width:480px){
+    .btn_respage.agree {
+        margin-top: 310%;
+        margin-left: 55%;
+    }
+}
+
 .btn_menupage_res {
     /* position: absolute; */
     display: flex;
@@ -424,9 +444,11 @@ header {
 
 }
 .BrownLines.res {
-    width: 40%;
-    margin-top: 7%;
+    height: 52%;
+    /* width: 40%;
+    margin-top: 7%; */
 }
+
 
 .HomepageTop {
     position: absolute;
@@ -474,6 +496,10 @@ header {
         background-size: contain;
         height: 25%;
         top: 20%;
+    }
+    .BrownLines.res{
+        height: 100%;
+        top: 30%;
     }
     .HomepageTop {
         position: relative;
@@ -1026,6 +1052,29 @@ footer.reservationpage {
 .step.light {
     background-image: url(../img/step_light.png);
 }
+
+@media (max-width:768px){
+    .step {
+        width: 120px;
+        height: 40px;
+        font-size: 1.1rem;
+    }
+}
+@media (max-width:480px){
+    .step {
+        
+        font-size: 1rem;
+
+    }
+    .step.light {
+        width: 50px;
+        height: 16px;
+        color: #00000000;
+        
+    }
+}
+
+
 .reservation_content_content {
     width: 100%;
     height: 80%;
@@ -1035,6 +1084,17 @@ footer.reservationpage {
     padding: 1% 0;
 
 }
+
+@media (max-width:480px){
+    .reservation_content {
+        height: 150%;
+    }
+    .reservation_content_content  {
+        height: 150%;
+    }
+}
+
+
 .res_contentarea {
     position: absolute;
     background-color: #F1DEC9;
@@ -1046,6 +1106,24 @@ footer.reservationpage {
     align-items: center;
 
 }
+
+@media (max-width:480px){
+    .res_contentarea {
+        overflow: hidden;
+        align-items: start;
+        padding: 10% 0;
+        border-radius: 5px;
+        height: 120%;
+        width: 90%;
+    }
+    ul.respage {
+        width: 100%;
+    }
+    
+}
+
+
+
 .res_contentarea ul {
     width: 67%;
     margin: 0;
