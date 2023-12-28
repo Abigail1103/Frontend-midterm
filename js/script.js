@@ -131,10 +131,18 @@ $('document').ready(function(){
     $("#qa1").click(function(){
         if(!isAnswerOpen){
             $("#ans1").slideDown(300);
+            $("#qa1").css('border-color','#A4907C').css('background-color','#8B706A').css('border-radius','5px');
+            $("#cont1").css('color','#fff');
+            $("#ques_num1").css('background-color','#fff').css('color','#6F553E');
+            $("#ques_title1").css('color','#fff');
             $("#btn_qa1").css('transform','rotate(-45deg)').css('transition','all 0.5s');
             isAnswerOpen=true;
         }else{
             $("#ans1").slideUp(300);
+            $("#qa1").css('border-color','#8B706A').css('background-color','#fff').css('border-radius','0px').css('transition','all 0.5s');
+            $("#cont1").css('color','#A4907C');
+            $("#ques_num1").css('background-color','#6F553E').css('color','#fff');
+            $("#ques_title1").css('color','#6F553E');
             $("#btn_qa1").css('transform','rotate(0deg)').css('transition','all 0.5s');
             isAnswerOpen=false;
         }

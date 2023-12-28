@@ -44,9 +44,27 @@
             
                     <div class="BrownLines"></div>
                 <!-- <img src="./img/深棕色交叉線.png" alt="" class="BrownLines"> -->
-                    <img src="./img/聖誕2圓角.png" class="HomepageTop" alt="">
+                    <!-- <img src="./img/聖誕2圓角.png" class="HomepageTop" alt=""> -->
                     
-               
+                    <!-- carousel -->
+                    <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="2000">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="./img/聖誕2圓角.png" alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="./img/聖誕3.png" alt="Second slide">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
            
             <!-- <div class="HomepageRight">
                 <h6 class="h6 top">讓你輕鬆簡單自己做
@@ -202,12 +220,12 @@
             <h2 style="color: #8B706A;margin-bottom: 20px;">常見問題</h2>
             <div class="questionbox" id="qa1">
                 <div class="question">
-                    <div class="ques_num">Q1</div>
-                    <h3 class="h3 qa">如何訂位</h3>
+                    <div class="ques_num" id="ques_num1">Q1</div>
+                    <h3 class="h3 qa" id="ques_title1">如何訂位</h3>
                     <div class="btn_qa" id="btn_qa1"></div>
                 </div>
                 <div class="answer" id="ans1">
-                    <h6 style="color:#A4907C">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, sunt.</h6>
+                    <h6 style="color:#A4907C;line-height: 150%;" id="cont1">可使用官網或撥打訂位專線 0965-833928 進行訂位;<br>每月1號會開放下個月的訂位,也可直接到現場候位。</h6>
                 </div>
             </div>
             <div class="questionbox middle" id="qa2">
@@ -217,7 +235,7 @@
                     <div class="btn_qa" id="btn_qa2"></div>
                 </div>
                 <div class="answer" id="ans2">
-                    <h6 style="color:#A4907C">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, sunt.</h6>
+                    <h6 style="color:#A4907C;line-height: 150%;">我們將直接收取菜單上標示的甜點費用因甜點都另外我們是「一份甜點限一人陪同」,<br>因此若是兩位一起過來製作另外一位朋友會加收陪同入場費用$129。</h6>
                 </div>
             </div>
             <div class="questionbox middle" id="qa3">
@@ -227,7 +245,7 @@
                     <div class="btn_qa" id="btn_qa3"></div>
                 </div>
                 <div class="answer" id="ans3">
-                    <h6 style="color:#A4907C">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, sunt.</h6>
+                    <h6 style="color:#A4907C;line-height: 150%;">所有的甜點製作過程都已經拍成影片及寫成文字步驟說明,放在平板電腦中,<br>採自己看平板電腦自己做的方式完成甜點製作過程中有任何問題,都可以詢問現場夥伴。</h6>
                 </div>
             </div>
             <div class="questionbox middle" id="qa4">
@@ -237,7 +255,7 @@
                     <div class="btn_qa" id="btn_qa4"></div>
                 </div>
                 <div class="answer" id="ans4">
-                    <h6 style="color:#A4907C">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, sunt.</h6>
+                    <h6 style="color:#A4907C;line-height: 150%;">可以到到現場留下姓名手機就可先離開,一有空位我們就會依候位順序通知，需要在15分鐘內回來，或者隨時登入線上預約網站查看訂位狀況,一旦有人取消,即可進行訂位。</h6>
                 </div>
             </div>
             <div class="questionbox middle" id="qa5">
@@ -247,7 +265,7 @@
                     <div class="btn_qa" id="btn_qa5"></div>
                 </div>
                 <div class="answer" id="ans5">
-                    <h6 style="color:#A4907C">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, sunt.</h6>
+                    <h6 style="color:#A4907C;line-height: 150%;">「當日壽星」本人來自己做,出示身份證件、line@聚樂人資料,就可以免費做一個固定專屬的4时生日蛋糕,或是您也可以付費選擇生日蛋糕升級版或選做其它甜點69折。</h6>
                 </div>
             </div>
             <div class="questionbox middle" id="qa6">
@@ -257,7 +275,7 @@
                     <div class="btn_qa" id="btn_qa6"></div>
                 </div>
                 <div class="answer" id="ans6">
-                    <h6 style="color:#A4907C">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, sunt.</h6>
+                    <h6 style="color:#A4907C;line-height: 150%;">基於安全考量,無論是否有大人陪同,我們所有分店都無法接待12歲以下小朋友。</h6>
                 </div>
             </div>
             <div class="questionbox middle" id="qa7">
@@ -267,7 +285,9 @@
                     <div class="btn_qa" id="btn_qa7"></div>
                 </div>
                 <div class="answer" id="ans7">
-                    <h6 style="color:#A4907C">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, sunt.</h6>
+                    <h6 style="color:#A4907C;line-height: 150%;">a.各店包場/包館金額不同,但都可折抵當天消費不足仍需付包場/包館費,超過則需補差額。<br>
+                        b.訂位需在確認後三天內繳付4000元之訂金。<br>
+                        c.超過原定時間需再加收場租費但需視現場實際狀況決定是否可增加時間,提早結束不退費。</h6>
                 </div>
             </div>
             
@@ -317,6 +337,9 @@
     
     
 
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     
 </body>
 </html>
