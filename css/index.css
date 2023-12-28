@@ -480,6 +480,12 @@ header {
 }
 
 @media (max-width:768px) {
+    .carousel-inner img {
+        margin-top: 60px;
+        height: auto;
+        width: 100%;
+        scale: 75%;
+    }
     .topics {
         align-items: center;
         justify-content: center;
@@ -506,6 +512,13 @@ header {
 }
 
 @media (max-width: 480px){
+    .carousel-inner img {
+        margin-left: 3%;
+        margin-top: -1%;
+        height: auto;
+        width: 100%;
+        scale: 85%;
+    }
 
     .topics {
         align-items: center;
