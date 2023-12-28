@@ -476,10 +476,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
 }
 .carousel-inner {
     height: 100%;
-    width: 68%;
+    width: 60%;
 }
 
 .carousel-inner img {
