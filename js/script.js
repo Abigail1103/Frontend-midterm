@@ -124,3 +124,99 @@ $('document').ready(function(){
     });
 
 });
+
+let isAnswerOpen = false;
+
+$('document').ready(function(){
+    $("#qa1").click(function(){
+        if(!isAnswerOpen){
+            $("#ans1").slideDown(300);
+            $("#btn_qa1").css('transform','rotate(-45deg)').css('transition','all 0.5s');
+            isAnswerOpen=true;
+        }else{
+            $("#ans1").slideUp(300);
+            $("#btn_qa1").css('transform','rotate(0deg)').css('transition','all 0.5s');
+            isAnswerOpen=false;
+        }
+        
+    })
+
+    $("#qa2").click(function(){
+        if(!isAnswerOpen){
+            $("#ans2").slideDown(300);
+            $("#btn_qa2").css('transform','rotate(-45deg)').css('transition','all 0.5s');
+            isAnswerOpen=true;
+        }else{
+            $("#ans2").slideUp(300);
+            $("#btn_qa2").css('transform','rotate(0deg)').css('transition','all 0.5s');
+            isAnswerOpen=false;
+        }
+        
+    })
+
+    $("#qa3").click(function(){
+        if(!isAnswerOpen){
+            $("#ans3").slideDown(300);
+            $("#btn_qa3").css('transform','rotate(-45deg)').css('transition','all 0.5s');
+            isAnswerOpen=true;
+        }else{
+            $("#ans3").slideUp(300);
+            $("#btn_qa3").css('transform','rotate(0deg)').css('transition','all 0.5s');
+            isAnswerOpen=false;
+        }
+        
+    })
+
+    $("#qa4").click(function(){
+        if(!isAnswerOpen){
+            $("#ans4").slideDown(300);
+            $("#btn_qa4").css('transform','rotate(-45deg)').css('transition','all 0.5s');
+            isAnswerOpen=true;
+        }else{
+            $("#ans4").slideUp(300);
+            $("#btn_qa4").css('transform','rotate(0deg)').css('transition','all 0.5s');
+            isAnswerOpen=false;
+        }
+        
+    })
+
+    $("#qa5").click(function(){
+        if(!isAnswerOpen){
+            $("#ans5").slideDown(300);
+            $("#btn_qa5").css('transform','rotate(-45deg)').css('transition','all 0.5s');
+            isAnswerOpen=true;
+        }else{
+            $("#ans5").slideUp(300);
+            $("#btn_qa5").css('transform','rotate(0deg)').css('transition','all 0.5s');
+            isAnswerOpen=false;
+        }
+        
+    })
+
+    $("#qa6").click(function(){
+        if(!isAnswerOpen){
+            $("#ans6").slideDown(300);
+            $("#btn_qa6").css('transform','rotate(-45deg)').css('transition','all 0.5s');
+            isAnswerOpen=true;
+        }else{
+            $("#ans6").slideUp(300);
+            $("#btn_qa6").css('transform','rotate(0deg)').css('transition','all 0.5s');
+            isAnswerOpen=false;
+        }
+        
+    })
+
+    $("#qa7").click(function(){
+        if(!isAnswerOpen){
+            $("#ans7").slideDown(300);
+            $("#btn_qa7").css('transform','rotate(-45deg)').css('transition','all 0.5s');
+            isAnswerOpen=true;
+        }else{
+            $("#ans7").slideUp(300);
+            $("#btn_qa7").css('transform','rotate(0deg)').css('transition','all 0.5s');
+            isAnswerOpen=false;
+        }
+        
+    })
+})
+

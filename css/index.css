@@ -328,6 +328,20 @@ header {
     font-family: SweiGothicLegCJKtc-Regular;
     
 }
+.btn_qa {
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/+.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 0;
+    
+    
+
+}
+
+
 
 @media (max-width:768px){
     .btn_respage.agree {
@@ -628,6 +642,7 @@ h3.qa {
     color: #6F553E;
     font-size: 1.2rem;
     margin: 0;
+    width: 88%;
 }
 h3.footer {
     color: #fff;
@@ -899,20 +914,25 @@ h6.footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
 
+}
+.questionbox {
+    width: 80%;
+    border: 1px solid #8B706A;
+    border-left: none;
+    border-right: none;
+    padding: 6px 0;
+    display: flex;
+    flex-direction: column;
 }
 .question {
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 100%;
     justify-content: start;
-    padding: 6px 0;
-    border: 1px solid #8B706A;
-    border-left: none;
-    border-right: none;
-    
 }
-.question.middle {
+.questionbox.middle {
     border-top:none;
 }
 
@@ -923,6 +943,13 @@ h6.footer {
     padding: 8px;
     margin-right: 20px;
 }
+
+.answer {
+    width: 80%;
+    margin-left: 55px;
+    display: none;
+}
+
 
 .rightarea {
     width: 60%;
