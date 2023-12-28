@@ -1315,7 +1315,7 @@ footer.reservationpage {
         height: 600vh;
     }
     .menu.menupage{
-        height: 120vh;
+        height: 180vh;
         flex-direction: column;
     }
     .ranking{
