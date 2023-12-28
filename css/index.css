@@ -1257,7 +1257,7 @@ footer.reservationpage {
 }
 
 
-@media (max-width:480px){
+@media screen and (max-width:480px){
 
     .con {
         margin-left: -10px;
