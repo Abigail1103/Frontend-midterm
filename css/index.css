@@ -55,11 +55,13 @@ body {
     background-position: center center;
     background-size: contain;
     background-repeat: repeat;
+    cursor: url(../img/攪拌棒.png),auto;
 }
 
 
 
 .con {
+    cursor: url(../img/攪拌棒.png),auto;
     width: 100vw;
     height: 100vh;
     /* outline: solid 1x black; */
@@ -788,7 +790,7 @@ h6.footer {
 .icon.bread {
     background-image: url(../img/bread.png);
 }
-.carousel {
+.carouselll {
     /* outline: solid 1px blueviolet; */
     /* background-color: blueviolet; */
     width: 100vw;
@@ -798,7 +800,7 @@ h6.footer {
     
 
 }
-.carousel.menupage {
+.carouselll.menupage {
     height: 130vh;
 }
 
@@ -845,7 +847,7 @@ h6.footer {
     position: absolute;
     top: 0;
     margin-left: -10px;
-    margin-top: 20px;
+    margin-top: 835px;
     width: 55px;
     height: 55px;
     background-image: url(../img/皇冠1.png);
@@ -968,6 +970,7 @@ h6.footer {
     display: flex;
     flex-direction: column;
     /* border-radius: 5px; */
+    cursor: pointer;
 }
 .question {
     display: flex;
@@ -1268,14 +1271,12 @@ footer.reservationpage {
     .CheckoutMenu.cakepage {
         height: 120vh;
     }
-    .carousel {
+    .carouselll {
         padding: 0% 1%;
         margin-top: 2%;
-        margin-bottom: 2%;
-        
-        
+        margin-bottom: 2%; 
     }
-    .carousel.cakepage {
+    .carouselll.cakepage {
         height: 30%;
     }
     .menu {
@@ -1365,14 +1366,14 @@ footer.reservationpage {
     .title.menupage {
         height: 10vh;
     }
-    .carousel{
+    .carouselll{
         padding: 0;
     }
-    .carousel.menupage {
+    .carouselll.menupage {
         flex-direction: column;
         height: 120vh;
     }
-    .carousel.cakepage {
+    .carouselll.cakepage {
         height: 120vh;
     }
     .menu{
