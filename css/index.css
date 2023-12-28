@@ -966,7 +966,7 @@ h6.footer {
     border: 1px solid #8B706A;
     border-left: none;
     border-right: none;
-    padding: 6px;
+    padding: 12px;
     display: flex;
     flex-direction: column;
     /* border-radius: 5px; */
