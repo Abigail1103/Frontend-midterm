@@ -324,6 +324,10 @@ header {
     
     
 }
+.btn_menupage_res:hover {
+    padding-bottom: 10px;
+    transition: all 0.5s;
+}
 .btn_menupage_res a {
     font-family: "Zen Maru Gothic", sans-serif;
     font-weight: 500;
@@ -368,6 +372,14 @@ header {
     margin-left: -10px;
 
 }
+
+@media (max-width:768px){
+    .topics.menu {
+        height: 18vh;
+        margin-left: 0;
+    }
+}
+
 .menu_topimage {
     width: auto;
     height: 10vh;
@@ -693,6 +705,12 @@ h6.footer {
     overflow: hidden;
     justify-content: start;
 }
+.menu.menupage {
+    justify-content: center;
+}
+.menu.cakepage {
+    justify-content: center;
+}
 
 .menu_item {
     /* padding: 50px; */
@@ -703,7 +721,7 @@ h6.footer {
     /* outline: solid 3px red; */
     display: flex;
     flex-direction: column;
-
+    
 }
 
 
@@ -997,6 +1015,9 @@ footer.reservationpage {
     width: 100vw;
     height: 150vh;
 }
+.menu_content.cakepage {
+    height: 300vh;
+}
 
 
 
@@ -1025,6 +1046,9 @@ footer.reservationpage {
 .col-xs-1{width:8.332%;}
 
 @media (max-width:768px){
+    .con {
+        height: 100vh;
+    }
     .CheckoutMenu{
         padding: 3%;
         width: 100vw;
@@ -1034,15 +1058,38 @@ footer.reservationpage {
         /* margin-bottom: 100px; */
         /* margin-left: -10px; */
     }
+    .menu_content {
+        height: 80vh;
+    }
+    .menu_content.cakepage {
+        height: 150vh;
+    }
+    .CheckoutMenu.menupage {
+        height: 100%;
+        padding: 0 3%;
+        margin-left: 0;
+    }
+    .CheckoutMenu.cakepage {
+        height: 120vh;
+    }
     .carousel {
         padding: 0% 1%;
         margin-top: 2%;
         margin-bottom: 2%;
         
+        
+    }
+    .carousel.cakepage {
+        height: 30%;
     }
     .menu {
         align-items: center;
+        justify-content: center;
+        
 
+    }
+    .menu.cakepage {
+        
     }
     .menu_item {
         display: flex;
@@ -1077,6 +1124,7 @@ footer.reservationpage {
     .section.section5 {
         height: 60%;
     }
+
     .footer_section {
         padding: 10% 5%;
         justify-content: start;
