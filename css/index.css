@@ -106,15 +106,23 @@ header {
     /* outline: solid 1px blue; */
     width: auto;
     height: auto;
-
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.logIn {
+    width: 80px;
+}
+
+
 @media (max-width:480px){
     .logo{
         height: 70%;
         width: auto;
     }
-    
+    .logIn {
+        display: none;
+    }
 
 }
 
@@ -488,6 +496,9 @@ header {
 }
 
 @media (max-width:768px) {
+    .carousel-inner{
+        width: 100%;
+    }
     .carousel-inner img {
         margin-top: 60px;
         height: auto;
@@ -520,12 +531,16 @@ header {
 }
 
 @media (max-width: 480px){
+    .carousel-inner{
+        width: 100%;
+
+    }
     .carousel-inner img {
         margin-left: 3%;
         margin-top: -1%;
         height: auto;
         width: 100%;
-        scale: 85%;
+        
     }
 
     .topics {
